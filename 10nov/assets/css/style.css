@@ -1,0 +1,197 @@
+
+/* --------------------------- */
+/* ---------- General -------- */
+/* ----------------------------*/
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+p {
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+.row {
+	margin:0;
+}
+
+/* --------------------------- */
+/* --------HEADEDR MENU------- */
+/* ----------------------------*/
+
+.nav-pills>li>a {
+	border-radius: 0;
+	margin:0;
+	padding:16px 0;
+	color:#FFF;
+	font-size: 16px;
+	background-color:#DF7373;
+}
+.nav-pills>li>a:hover {
+	color:#CC444B;
+	background-color:#E4B1AB;
+}
+.nav-pills>li.active>a {
+	background-color:#E4B1AB;
+}
+.nav-pills>li.active>a:hover {
+	color:#CC444B;
+	background-color:#E4B1AB;
+}
+.nav-pills>li+li {
+	margin:0;
+}
+
+/* --------------------------- */
+/* ----------- Main ---------- */
+/* ----------------------------*/
+main {
+
+	height:100%;
+
+}
+
+
+.welcome p {
+	font-size: 68px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* --------------------------- */
+/* ----------- CV   ---------- */
+/* ----------------------------*/
+.cv {
+	background-color: lightgray;
+}
+
+
+
+
+
+/* --------------------------- */
+/* ---------- Contact --------- */
+/* ----------------------------*/
+.contact {
+	background-color: lightgray;
+}
+
+.sns a {
+	font-size: 30px;
+	color:white;
+	text-align: center;
+
+}
+.sns a:hover {
+	color:black;
+	
+}
+
+
+
+
+/* --------------------------- */
+/* ----------- BIO  ---------- */
+/* ----------------------------*/
+.presentation p {
+	padding:50px;
+
+}
+.baby, .girl, .student, .now p {
+	padding:50px;
+}
+.baby {
+	background-color: #5cb85c;
+}
+.girl {
+	background-color: #5bc0de;
+}
+.student {
+	background-color: #f0ad4e;
+}
+.now {
+	background-color: #d9534f;
+}
+.presentation {
+	background-color: lightgray;
+}
+
+
+
+
+
+/* --------------------------- */
+/* ---------- Footer --------- */
+/* ----------------------------*/
+
+footer {
+	background-color:#E4B1AB;
+}
+footer p {
+	background-color:#E4B1AB;
+	color:#fff;
+	margin:0;
+	padding:10px 0;
+	font-size: 10px;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+
+
+
+/* Media Query pour modifier le contenu selon la taille d'ecran */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {   
+	
+	main {
+
+	height:100%;
+	}
+
+	.welcome p {
+		font-size: 52px;
+		line-height: 300%;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.nav-pills>li>a {
+		padding:8px 0;
+		font-size: 14px;
+	}
+
+	.baby {
+		background-color: #5cb85c;
+	}
+	.girl {
+		background-color: #5bc0de;
+	}
+	.student {
+		background-color: #f0ad4e;
+	}
+	.now {
+		background-color: #d9534f;
+	}
+
+	footer p {
+		padding:4px;
+	}
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
