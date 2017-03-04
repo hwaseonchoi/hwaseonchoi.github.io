@@ -28,6 +28,14 @@ button {
     margin: 5px auto;
 }
 
+a {
+    text-align: center;
+    text-decoration: none;
+    color:#000;
+}
+a:hover {
+    text-decoration: underline;
+}
 /*.true {
     background-color: green;
     color: white;
