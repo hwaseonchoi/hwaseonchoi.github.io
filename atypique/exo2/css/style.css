@@ -1,0 +1,44 @@
+body {
+    width:100%;
+}
+main {
+    margin-top:100px;
+    text-align: center;
+}
+p {
+    font-family: arial;
+}
+#results-palindrome, #results-anagram {
+    display:inline;
+    font-weight: bold;
+}
+div {
+    margin:20px auto;
+}
+input {
+    display:block;
+    margin:10px auto;
+}
+input, button {
+    border-radius: 5px;
+    border:1px solid gray;
+    padding:5px;
+}
+button {
+    margin: 5px auto;
+}
+
+.true {
+    background-color: green;
+    color: white;
+    padding:4px 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+.false{
+    background-color: red;
+    color:white;
+    padding:4px 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
