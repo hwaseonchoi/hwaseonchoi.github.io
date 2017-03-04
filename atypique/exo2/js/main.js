@@ -11,13 +11,10 @@ window.onload = function() {
             // Préparation de la réponse en fonction des résultats
             if (isPalindrome(text) == true) {
                 document.getElementById('results-palindrome').innerHTML = 'Oui';
-                document.getElementById('results-palindrome').classList.toggle('true');
+                document.getElementById('results-palindrome').style.color = "Green"
             } else {
                 document.getElementById('results-palindrome').innerHTML = 'Non';
-                // if(classList == 'true') {
-                //     document.getElementById('results-palindrome').classList[0].remove('true');
-                // }
-                document.getElementById('results-palindrome').classList.toggle('false');
+                document.getElementById('results-palindrome').style.color = "Red";
             };
 
         });
