@@ -1,7 +1,7 @@
 window.onload = function() {
 
     function init() {
-        document.getElementById('submit-palindrome').addEventListener('click', function(){
+        document.getElementById('submit-palindrome').addEventListener('click', function(event){
             // Fonction par défaut de submit desactivée
             event.preventDefault();
 
@@ -19,7 +19,7 @@ window.onload = function() {
 
         });
 
-        document.getElementById('submit-anagram').addEventListener('click', function(){
+        document.getElementById('submit-anagram').addEventListener('click', function(event){
             // Fonction par défaut de submit desactivée
             event.preventDefault();
 
