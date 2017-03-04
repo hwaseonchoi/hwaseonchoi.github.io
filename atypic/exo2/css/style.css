@@ -27,6 +27,9 @@ input, button {
 button {
     margin: 5px auto;
 }
+header {
+    text-align: center;
+}
 
 a {
     text-align: center;
