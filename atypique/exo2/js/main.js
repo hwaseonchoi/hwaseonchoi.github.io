@@ -30,10 +30,10 @@ window.onload = function() {
             // Préparation de la réponse en fonction des résultats
             if (isAnagram(text1, text2) == true) {
                 document.getElementById('results-anagram').innerHTML = 'Oui';
-                document.getElementById('results-anagram').classList.add('true');
+                document.getElementById('results-anagram').style.color = "Green"
             } else {
                 document.getElementById('results-anagram').innerHTML = 'Non';
-                document.getElementById('results-anagram').classList.add('false');
+                document.getElementById('results-anagram').style.color = "Green"
             };
 
         });
