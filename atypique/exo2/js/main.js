@@ -11,9 +11,15 @@ window.onload = function() {
             // Préparation de la réponse en fonction des résultats
             if (isPalindrome(text) == true) {
                 document.getElementById('results-palindrome').innerHTML = 'Oui';
+                if(classList == 'false') {
+                    document.getElementById('results-palindrome').classList.remove('false');
+                }
                 document.getElementById('results-palindrome').classList.add('true');
             } else {
                 document.getElementById('results-palindrome').innerHTML = 'Non';
+                if(classList == 'true') {
+                    document.getElementById('results-palindrome').classList.remove('true');
+                }
                 document.getElementById('results-palindrome').classList.add('false');
             };
 
